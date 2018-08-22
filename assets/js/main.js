@@ -104,7 +104,7 @@ heroSlider.slick({
     arrows: true,
     autoplay: true,
     autoplaySpeed: 3000,
-    dots: false,
+    dots: true,
     pauseOnFocus: false,
     pauseOnHover: false,
     fade: true,
