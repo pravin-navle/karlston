@@ -4193,7 +4193,7 @@ margin-left: -32px;		}
   .blog-item .content {
     float: left;
     overflow: hidden;
-    margin-top: -5px;
+    margin-top: 5px;
     /*-- Title --*/
     /*-- Description --*/
     /*-- Meta --*/ }
