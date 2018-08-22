@@ -98,13 +98,13 @@ closeCart.on('click', function(e){
     
 /*--
     Hero Slider
---------------------------------------------
+--------------------------------------------*/
 var heroSlider = $('.hero-slider');
 heroSlider.slick({
     arrows: true,
-    autoplay: false,
-    autoplaySpeed: 5000,
-    dots: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    dots: false,
     pauseOnFocus: false,
     pauseOnHover: false,
     fade: true,
@@ -112,36 +112,10 @@ heroSlider.slick({
     slidesToShow: 1,
     prevArrow: '<button type="button" class="slick-prev"><i class="icofont icofont-long-arrow-left"></i></button>',
     nextArrow: '<button type="button" class="slick-next"><i class="icofont icofont-long-arrow-right"></i></button>',
-});*/
-     
-/*--
-    Hero Slider
---------------------------------------------*/
-var heroSlider = $('.hero-slider');
-heroSlider.slick({
-  
-    speed: 10000,
-        autoplay: true,
-        autoplaySpeed: 0,
-        cssEase: 'linear',
-        slidesToShow: 1,
-        slidesToScroll: 1,
-	arrows:false,
-pauseOnHover:true,
-        variableWidth: false,
 });
+    
 /*--
 	Product Slider
-
-    speed: 10000,
-        autoplay: true,
-        autoplaySpeed: 0,
-        cssEase: 'linear',
-        slidesToShow: 1,
-        slidesToScroll: 1,
-arrows:false,
-        variableWidth: true,
-
 -----------------------------------*/
 $('.small-product-slider').slick({
     arrows: false,
